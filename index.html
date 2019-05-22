@@ -1,0 +1,84 @@
+<html>
+  <head>
+		<title>FCC Survey Form</title>
+	  <meta charset= "utf8">
+		<link href="main.css" rel="stylesheet">
+	</head>
+	<div id="parent">
+	<div id="child">
+	<body class="body">
+	  <h1 id="title">FCC Survey Form Project</h1>
+		<p id="description">This is a survey form example created with only HTML and CSS.</p>
+		<form id="surey-form">
+			<div class="text-box-label">
+			  <label id="name-label">Name</label>
+	  	</div>
+      <input type="text" id="name" placeholder="What is your name?"><br>
+			<div class="text-box-label">
+			<label id="email-label">Email</label>
+	  	</div>
+			<input type="email" id="email" placeholder="you@example.com"><br>
+			<div class="text-box-label">
+			<label id="age-label">Age</label>
+		 </div>
+			<input type="number" id="number" placeholder="How old are you?" min="5" max="130"><br>
+			<div>
+			<label class="question-labels">Which option best describes you?</label>
+		</div>
+		<div id="dropdown-menu">
+			<select id="dropdown">
+				<option>--select an option--</option>
+				<option>Student</option>
+				<option>Employed Full-time</option>
+				<option>Full-time learner</option>
+				<option>Prefer not to say</option>
+				<option>Other</option>
+			</select>
+		</div>
+			<div>
+			  <fieldset id="radio-field">
+					<div class="long_label">
+				  <label id="recommend_label">How likely is it that you would recommend freeCodeCamp to a friend?</label><br>
+				</div>
+					<div id="radioButtons">
+					  <input type="radio" name="recommend">
+				    <label>Definitely</label><br>
+				    <input type="radio"name="recommend">
+				    <label>Maybe</label><br>
+				    <input type="radio" name="recommend">
+				    <label>Not sure</label>
+					</div>
+		  </fieldset>
+		  </div>
+			<fieldset id="check-field">
+				<div class="long_label">
+			   	<label id="check_label">What are some things you would like to see be improved on freeCodeCamp?</label><br>
+			  </div>
+				<div id="checkBoxes">
+			  	<input type="checkbox" value="0">
+				  <label>Front-end projects</label><br>
+			  	<input type="checkbox" value="1">
+				  <label>Back-end projects</label><br>
+			  	<input type="checkbox" value="2">
+			  	<label>Data visualisation</label><br>
+			  	<input type="checkbox" value="3">
+			  	<label>Challenges</label><br>
+			  	<input type="checkbox" value="4">
+				  <label>Open source community</label><br>
+			  	<input type="checkbox" value="5">
+			  	<label>Gitter help rooms</label>
+				</div>
+			</fieldset>
+			<label class="question-labels">Any recommendations?</label>
+			<div id="text-box-child">
+			  <textarea rows="6" cols="80">
+			  </textarea>
+			</div>
+			<div id="final-button">
+			  <input type="submit" id="submit-button">
+		</div>
+		</form>
+	</body>
+</div>
+</div>
+</html>
